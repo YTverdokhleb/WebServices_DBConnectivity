@@ -3,7 +3,7 @@ ASP.NET project consisting of following 2 REST Web Services (to insert random da
 
 You can use Postman (or something like it) to Send or Receive data through those Services.
 
-DB contains a table 'Employees' with the following fields:
+DB is a file-based SQL data base which contains a table 'Employees' with the following fields:
 Id, Name, Department, Rate.
 
 To read all data from the DB you need to call GET command using 'http://localhost:49576/Employee/GetEmployees' URL.
